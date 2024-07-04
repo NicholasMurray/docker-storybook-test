@@ -1,13 +1,29 @@
 # Docker with storybook
 
-## Run docker
+## Docker using compose
+
+### Run docker with compose
 
 ```
 sudo docker compose up
 ```
 
-## Stop Docker
+### Stop docker with compose
 
 ```
 ctrl + c
+```
+
+## Run docker without compose
+
+## Run docker
+
+```
+docker build -t docker-storybook-test .
+```
+
+## Build docker
+
+```
+docker run -p 6006:6006 docker-storybook-test
 ```
