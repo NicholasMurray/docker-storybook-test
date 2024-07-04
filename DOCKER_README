@@ -16,13 +16,13 @@ ctrl + c
 
 ## Run docker without compose
 
-## Run docker
+## Build docker
 
 ```
 docker build -t docker-storybook-test .
 ```
 
-## Build docker
+## Run docker
 
 ```
 docker run -p 6006:6006 docker-storybook-test
