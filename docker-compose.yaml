@@ -13,7 +13,7 @@ services:
     env_file:
       - .env
     volumes:
-      - ./:/usr/local/apps/myapp/dev
-      - exclude:/usr/local/apps/myapp/dev/node_modules/
+      - ./:/usr/src/app
+      - exclude:/usr/src/app/node_modules/
 volumes:
   exclude:

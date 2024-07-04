@@ -1,0 +1,13 @@
+# Docker with storybook
+
+## Run docker
+
+```
+sudo docker compose up
+```
+
+## Stop Docker
+
+```
+ctrl + c
+```
