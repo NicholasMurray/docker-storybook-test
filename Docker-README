@@ -1,0 +1,17 @@
+# Docker with storybook
+
+## Build docker
+
+sudo docker build -t docker-storybook-test .
+
+<!-- sudo docker run -p 6006:6006 -v $(pwd)/.storybook:/app/.storybook docker-storybook-test -->
+
+## Run docker
+
+sudo docker run -p 6006:6006 docker-storybook-test
+
+## Stop Docker
+
+sudo docker stop docker-storybook-test
+
+docker stop $(docker ps -q --filter ancestor=docker-storybook-test)
